@@ -4,9 +4,9 @@ import google.generativeai as genai
 
 # --- 1. Configuration ---
 # Use the keys you generated in Google AI Studio and Google Cloud Console
-GEMINI_API_KEY = "AIzaSyC3CD25DRQ9ITQJGNfRL1KkWS4y0iIe7GY" 
+GEMINI_API_KEY = "Type your api key" 
 GOOGLE_API_KEY = "YOUR_GOOGLE_CLOUD_KEY"
-SEARCH_ENGINE_ID = "41b8bca57c1154cdb"
+SEARCH_ENGINE_ID = "your google search engine key"
 
 # --- 2. Search Tool ---
 def search_medicine_info(medicine_name: str):
@@ -56,4 +56,5 @@ def main():
             print(f"\nError: {e}")
 
 if __name__ == "__main__":
+
     main()
